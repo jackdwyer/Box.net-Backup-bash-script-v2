@@ -1,0 +1,12 @@
+-----
+Jack Dwyer
+10 - November - 2011
+v2 Box.net Script.
+
+Will compare the contents of directory on server, 
+and the contents on the box.net mounted directory.
+
+Will cp any files that are not found in the box.net directory
+to it.
+
+-----
