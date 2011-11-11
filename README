@@ -3,14 +3,16 @@ Jack Dwyer
 10 - November - 2011
 v2 Box.net Script.
 
-Will compare the contents of directory on server, 
-and the contents on the box.net mounted directory.
-
-Pretty much calls a python script that does all the hard yards.
------
+Basically bash script just checks box.net is mounted and if not mounts.
+Dumps the mysql db
+then calls python script which copies the files to the box.net directory.
 
 NEED:
 
 - davfs2 to mount box.net if chosing to use that as your backup location.
 I setup my box.net following these steps:
 http://ubuntuforums.org/showpost.php?p=11258734&amp;postcount=34
+
+and Python 2.6, not tested with python 3.
+
+
