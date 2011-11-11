@@ -6,10 +6,11 @@ v2 Box.net Script.
 Will compare the contents of directory on server, 
 and the contents on the box.net mounted directory.
 
-Will cp any files that are not found in the box.net directory
-to it.
-
+Pretty much calls a python script that does all the hard yards.
 -----
-Stuff to be aware of, this script assumes there is no whitespace in file names
-may add IFS if needed.  
-Shell see later if i want to make it more robust.
+
+NEED:
+
+- davfs2 to mount box.net if chosing to use that as your backup location.
+I setup my box.net following these steps:
+http://ubuntuforums.org/showpost.php?p=11258734&amp;postcount=34
