@@ -10,3 +10,6 @@ Will cp any files that are not found in the box.net directory
 to it.
 
 -----
+Stuff to be aware of, this script assumes there is no whitespace in file names
+may add IFS if needed.  
+Shell see later if i want to make it more robust.
