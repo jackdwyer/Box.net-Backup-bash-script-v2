@@ -7,6 +7,8 @@ Basically bash script just checks box.net is mounted and if not mounts.
 Dumps the mysql db
 then calls python script which copies the files to the box.net directory.
 
+Cronjob it to your liking.
+
 NEED:
 
 - davfs2 to mount box.net if chosing to use that as your backup location.
