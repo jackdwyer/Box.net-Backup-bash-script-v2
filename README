@@ -15,4 +15,11 @@ http://ubuntuforums.org/showpost.php?p=11258734&amp;postcount=34
 
 and Python 2.6, not tested with python 3.
 
-
+--------
+TODO
+Merge with original box.net-backup-script
+Error checking
+Log results
+Notify if errors
+Pass params to python script
+more shit.
